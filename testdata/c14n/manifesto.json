@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "01-heranca-e-declaracao-nao-usada",
+    "entrada": "c14n/01-heranca-e-declaracao-nao-usada.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/01-heranca-e-declaracao-nao-usada.esperado.c14n"
+  },
+  {
+    "nome": "02-atributos-ordenados",
+    "entrada": "c14n/02-atributos-ordenados.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/02-atributos-ordenados.esperado.c14n"
+  },
+  {
+    "nome": "03-escape-texto",
+    "entrada": "c14n/03-escape-texto.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/03-escape-texto.esperado.c14n"
+  },
+  {
+    "nome": "04-escape-atributo",
+    "entrada": "c14n/04-escape-atributo.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/04-escape-atributo.esperado.c14n"
+  },
+  {
+    "nome": "05-vazio-expande",
+    "entrada": "c14n/05-vazio-expande.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/05-vazio-expande.esperado.c14n"
+  },
+  {
+    "nome": "06-utf8-sem-entidade",
+    "entrada": "c14n/06-utf8-sem-entidade.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/06-utf8-sem-entidade.esperado.c14n"
+  },
+  {
+    "nome": "07-ns-redundante-removido",
+    "entrada": "c14n/07-ns-redundante-removido.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/07-ns-redundante-removido.esperado.c14n"
+  },
+  {
+    "nome": "08-default-sobreposto",
+    "entrada": "c14n/08-default-sobreposto.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/08-default-sobreposto.esperado.c14n"
+  },
+  {
+    "nome": "09-cdata-e-charref",
+    "entrada": "c14n/09-cdata-e-charref.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/09-cdata-e-charref.esperado.c14n"
+  },
+  {
+    "nome": "10-espacos-preservados",
+    "entrada": "c14n/10-espacos-preservados.entrada.xml",
+    "alvo_id": "alvo",
+    "esperado": "c14n/10-espacos-preservados.esperado.c14n"
+  }
+]

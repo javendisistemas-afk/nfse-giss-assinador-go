@@ -1,0 +1,90 @@
+{
+  "senha_pfx": "teste123",
+  "pfx": [
+    "teste-legado-3des.pfx",
+    "teste-moderno-aes.pfx",
+    "teste-legado-rc2.pfx"
+  ],
+  "variantes": {
+    "A": {
+      "assinado": "xml/lote-assinado-a.xml",
+      "sem_assinatura": "xml/lote-sem-assinatura-a.xml",
+      "passos": [
+        {
+          "id": "rps1",
+          "digest_sha1_b64": "fIkAGVGoMUffgDWnxWkrPCh++WY=",
+          "signature_value_b64": "kpQjdrDiEB3UjJuZ9vD8el3N84er5qAuIrkOaAsQ/dT9eHdh9R+KfN+FlrlgEZn8DxbOGGfZi99SH6fRN5p1ELG2GfcmoScXQfRn55ZuJUKQZ8OrtxEiFJmdk5OUq2ifDvklLXyHnKBQy82xOeZl7/CAIjU/jVITMHMe035OwhstrxyR8mdXe+4FNs4wqM4raEkcA781oSe5IPKibS9lXEd0QRqyJwfvL0Pz+qxbV1ESH+CwnznSiVmjQNa/D0kt2Q0kFDFQVmGDU2NfS/WkJENRwsQiOEnNHdv1esUzYs0nDU5Z3I2fekaBo1ODsRx/KQ1Gh3sPdRNX1TM7XRqmbQ==",
+          "alvo_c14n": "xml/passos/rps1-a.alvo.c14n",
+          "signedinfo_c14n": "xml/passos/rps1-a.signedinfo.c14n"
+        },
+        {
+          "id": "rps2",
+          "digest_sha1_b64": "V1XpJqbchSXkxtEWlmLk3VXjdSo=",
+          "signature_value_b64": "sOj0WFeynv48NdsiMNZFLgOncCNNzWxeM8Pf0VqsDnS2/1MfCuLjzTfDy8NFZZC3FSoHadFXG/Rod5KRxZRAOGb7tMXPWvlEQAQxCAAXkvgUemKQ6EkkUIej9uxKYqjN7/zZNlBsQpR1S9P6OokpOMKlP45zTKEsY7I2VHfwyJgnugpVDv/fJdiRnM40EusyhbJCwfWgRKO6WP7yBmbIcKyXWTuox4tTAzluXwZfrUZjOtieQ38onmcZ+4pqAT8aZy2p+IDo+VMdzd2Hl5omPUYkFv7Iqo3abdwogsHEn05cZP3W1qcLZ1YKyIkYNc+DXneticQUEaExTjtaAA87Qw==",
+          "alvo_c14n": "xml/passos/rps2-a.alvo.c14n",
+          "signedinfo_c14n": "xml/passos/rps2-a.signedinfo.c14n"
+        },
+        {
+          "id": "lote1",
+          "digest_sha1_b64": "iXEEoqlpyLIWe5KhgJd4AFW6qgY=",
+          "signature_value_b64": "CPpDrRKV4bXnDPtQrqyQ2ZaF2lSNa+hC50+9cZohSA98hUhmxwY0UC27XSZ96YcG6IiysFKKKnZcK0I2yjjRZoBoYqiOrNkDspeLKHr7nFR1+Ij8GXBAM494wy2ndHRBTZNIzEcn5cMOTgQ1F+XPjwVVZI6CgGTWsEsMTL2/1NLOVpP9feGMip7olvEtB8pGpI8i6Va/q14DRBaeVTNNhv6/Q6Sv6HYIVLOknmCTA37Ie8UPmx4sCbQiIYjRScoBQVzl1L5/gl51I8u64AtqsqPxoXenAB7+iZEsCozcXaXQlxxf8dLz3uvx2KunIMWYJZvSaClIEjIV/4Vo1qfXWg==",
+          "alvo_c14n": "xml/passos/lote1-a.alvo.c14n",
+          "signedinfo_c14n": "xml/passos/lote1-a.signedinfo.c14n"
+        }
+      ]
+    },
+    "B": {
+      "assinado": "xml/lote-assinado-b.xml",
+      "sem_assinatura": "xml/lote-sem-assinatura-b.xml",
+      "passos": [
+        {
+          "id": "rps1",
+          "digest_sha1_b64": "DWjSz0mJIuUIdJyTmE0NOS19NPU=",
+          "signature_value_b64": "nD5VECVt/6V/te/smdW6DjmmXSbSMZ9IOf3h1w0sX/LTlakexpYVfLUc+yLmeZ38pclm9JL2sUzvV4sK2G0NCJ60d7PC82MqVWVBbF7vc8BcJymwWXE19yoORzdvqeeNT+G/3u8y5b3zhnmAse3E7TxAR+eD1jkOL9Bpg3k9ckhe5jIVzZhSWSsS1+ZFLsqljaKFCDzPG78zw+jJWJPX9A+Dy/drSY5YnzyTGmTGwVb+nSX8h3bCDeulkFh/lRqkmAg0XOsQ6NmF12ZI0/LcwteFnie0BBcPW4ZFvMAVRQOGoWUpvj5NNnz0HrNlu2f6Zgxhlu+JMmx9OhvBoWMe7Q==",
+          "alvo_c14n": "xml/passos/rps1-b.alvo.c14n",
+          "signedinfo_c14n": "xml/passos/rps1-b.signedinfo.c14n"
+        },
+        {
+          "id": "rps2",
+          "digest_sha1_b64": "y2IfDTaDmUiq0Q4K+7QO3WTTUXE=",
+          "signature_value_b64": "nwaGMnL9KtYVoFIt5yv9JQ3L3RLLFpz7h3T5IjhOWrkaU39i41sGqwUjPP3g0Nc12zcrUApmCAcDF9wD5ie+k7jnkZGq9vsXdMWmK9JGW57eeQABSzSO06pU7qTfUNKGtamKaz3et2rvoJqq80pWjT5pD4qtKMLl/LSMDLsHbvZ+H0IESLrXH+sdBVbAS6/GYfspyKMy1KdHc/MG7XotYtkZOGSLI86zSnjOtpv1HU0pYfj55XPPqBjLxvOAnCbg0Zz48JBoCOCL4UTp43MduXdqRD/ljWkWBAXtSgMK605HCGuQCwWh8b7+944lfqLRH/QpsRFDsul2INcUvgheXg==",
+          "alvo_c14n": "xml/passos/rps2-b.alvo.c14n",
+          "signedinfo_c14n": "xml/passos/rps2-b.signedinfo.c14n"
+        },
+        {
+          "id": "lote1",
+          "digest_sha1_b64": "Fx1Fdy7eZD6UZSF2H9SgI2tKJag=",
+          "signature_value_b64": "Ua/j0gqcUWu34n78cZno6lW7SFHyNPPYolGm0lWEhv5ud+xN7iQk/ENQ/NqecHPgolaCKlC8uD19iO9Y4hjSMkPK2HKRZOoEiwH9B7oX+8fAKhoiwERdcQo9lwhK+lnyE7x/EgCMlfXqx178H9egmhnQo2riZQoMzCTAum2EI6OLZJNUaeSj3I/liCQ5aJVcatr6xyRPVw97wV9schkwGGukWur6dTPXwkb5rWRJg2SF5mCqCRk9CYCEGywM/JW3m0OFB1XJeeM6ukyhcr0JK+gEeFaWykbRhl8m1YY9+axok//XzMAMDYomujHLvKL79GA9ZW2AdXAM9lhF0XtpZg==",
+          "alvo_c14n": "xml/passos/lote1-b.alvo.c14n",
+          "signedinfo_c14n": "xml/passos/lote1-b.signedinfo.c14n"
+        }
+      ]
+    }
+  },
+  "negativos": [
+    {
+      "arquivo": "negativos/n1-texto-do-rps1-alterado.xml",
+      "referencias_validas": {
+        "rps1": false,
+        "rps2": false,
+        "lote1": false
+      }
+    },
+    {
+      "arquivo": "negativos/n2-numero-do-lote-alterado.xml",
+      "referencias_validas": {
+        "rps1": true,
+        "rps2": true,
+        "lote1": false
+      }
+    },
+    {
+      "arquivo": "negativos/n3-digest-do-rps1-trocado.xml",
+      "referencias_validas": {
+        "rps1": false,
+        "rps2": true,
+        "lote1": false
+      }
+    }
+  ]
+}

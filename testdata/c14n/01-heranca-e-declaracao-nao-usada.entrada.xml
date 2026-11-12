@@ -1,0 +1,1 @@
+<a:Raiz xmlns:a="urn:a" xmlns:b="urn:b" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:def"><b:Filho Id="alvo"><a:Neto/></b:Filho></a:Raiz>
