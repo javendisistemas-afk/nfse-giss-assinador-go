@@ -8,7 +8,7 @@ import (
 
 // EndpointHomologacao é o ÚNICO endpoint que este agente aceita enviar,
 // nesta fatia (F4.3 — só homologação, sem efeito fiscal). Medido no WSDL
-// local (C:\sistemas\outros\arquivos_nfs\wsdl_homolog\nfse.wsdl.xml):
+// local de homologação (wsdl_homolog/nfse.wsdl.xml):
 // <soap:address location="https://v2-ws-homologacao.giss.com.br/service-ws/nf/nfse-ws"/>
 const EndpointHomologacao = "https://v2-ws-homologacao.giss.com.br/service-ws/nf/nfse-ws"
 
